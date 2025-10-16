@@ -4,6 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "sema4ai",
+            "name": "Sema4.ai: Launch task from robot.yaml",
+            "request": "launch",
+            "robot": "${file}",
+            "task": ""
+        },
         {
             "name": "Launch",
             "type": "lldb",
